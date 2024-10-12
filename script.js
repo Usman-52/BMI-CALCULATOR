@@ -20,6 +20,16 @@ clcBtn.addEventListener("click", function(){
         }
 
         document.getElementById("result").textContent = resultText;
+
+        if (height <= 0 || weight <= 0) {
+            alert("Please enter a positive value")
+        }
+
     }
- 
+
+   else{
+    alert("⛔ Both fields must be filled with positive Numbers")
+   }
+
+    
 })
