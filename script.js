@@ -31,5 +31,4 @@ clcBtn.addEventListener("click", function(){
     alert("⛔ Both fields must be filled with positive Numbers")
    }
 
-    
 })
